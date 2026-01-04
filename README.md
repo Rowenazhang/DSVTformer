@@ -6,7 +6,7 @@ The model explicitly decomposes and models **Spatial-View-Temporal (SVT)** corre
 The main training and evaluation entrypoint of this repository is `main_img.py`.
 This is an open-source release for an unpublished paper; details and results may evolve.
 
-![Overview](figures/fig1.pdf)
+![Overview](figures/fig1.png)
 
 ## Highlights
 
