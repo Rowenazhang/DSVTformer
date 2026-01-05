@@ -94,7 +94,7 @@ python main_img.py \
 To run evaluation without training, add the `--test` flag:
 
 ```bash
-python main_img.py --test [other arguments]
+python main_img.py --test
 ```
 
 
