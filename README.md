@@ -1,10 +1,10 @@
 # DSVTformer: Dual-stream Spatial-View-Temporal Transformer for Multi-view 3D Human Pose Estimation
 
-*This repository provides an open-source implementation accompanying a manuscript currently under review. 
-Detailed descriptions and experimental results may be updated as the review process progresses.*
-
 DSVTformer is a multi-view 3D human pose estimation framework that integrates **2D pose features** and **per-view image context features** using a **dual-stream transformer architecture**.
 The model explicitly decomposes and models **Spatial-View-Temporal (SVT)** correlations via axis-aware attention blocks, enabling robust 3D pose estimation **without requiring camera parameters**.
+
+*This repository provides an open-source implementation accompanying a manuscript currently under review. 
+Detailed descriptions and experimental results may be updated as the review process progresses.*
 
 ![Overview](figures/fig1.png)
 
