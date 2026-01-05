@@ -3,6 +3,9 @@
 DSVTformer is a multi-view 3D human pose estimation framework that integrates **2D pose features** and **per-view image context features** using a **dual-stream transformer architecture**.
 The model explicitly decomposes and models **Spatial-View-Temporal (SVT)** correlations via axis-aware attention blocks, enabling robust 3D pose estimation **without requiring camera parameters**.
 
+The main training and evaluation entrypoint of this repository is `main_img.py`.
+This is an open-source release for an unpublished paper; details and results may evolve.
+
 ![Overview](figures/fig1.png)
 
 ## Highlights
@@ -53,6 +56,22 @@ This repository supports experiments on **Human3.6M** following the **standard e
   - MPJPE (Protocol P1)
   - PA-MPJPE (Protocol P2)
 
+## Qualitative Results
+
+We visualize our reconstruction quality across three benchmarks. The following figures show representative results from our method on each dataset.
+
+### Human3.6M
+
+![Human3.6M Results](figures/fig9.png)
+
+### 3DHP
+
+![3DHP Results](figures/fig10.png)
+
+### SkiPose
+
+![SkiPose Results](figures/fig11.png)
+
 ## Training / Evaluation
 
 ### Default Training Command (Human3.6M)
@@ -92,4 +111,3 @@ python main_img.py --test [other arguments]
 ## License
 
 Please refer to the `LICENSE` file in the repository root.
-
